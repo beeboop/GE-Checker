@@ -1,0 +1,512 @@
+<select name="subject" label="Subject" tabindex="50" style="border:1px solid #B2BED1;  margin-top:3px;">
+				<option value="-">-</option>
+				
+					<option value="AAS">African American &amp; African Std (AAS)</option>
+				
+					<option value="AMR">Agric Mngt &amp; Range Resources (AMR)</option>
+				
+					<option value="AGC">Agricultural &amp; Envir Chem Grad (AGC)</option>
+				
+					<option value="ARE">Agricultural &amp; Resource Econ (ARE)</option>
+				
+					<option value="AGE">Agricultural Economics (AGE)</option>
+				
+					<option value="AED">Agricultural Education (AED)</option>
+				
+					<option value="ASE">Agricultural Systems &amp; Envir (ASE)</option>
+				
+					<option value="AGR">Agronomy (AGR)</option>
+				
+					<option value="AMS">American Studies (AMS)</option>
+				
+					<option value="ANB">Animal Behavior (Graduate Gp) (ANB)</option>
+				
+					<option value="ABI">Animal Biology (ABI)</option>
+				
+					<option value="ABG">Animal Biology Grad Gp (ABG)</option>
+				
+					<option value="ANG">Animal Genetics (ANG)</option>
+				
+					<option value="ANS">Animal Science (ANS)</option>
+				
+					<option value="ANT">Anthropology (ANT)</option>
+				
+					<option value="ABS">Applied Behavioral Sciences (ABS)</option>
+				
+					<option value="ABT">Applied Biological System Tech (ABT)</option>
+				
+					<option value="ARB">Arabic (ARB)</option>
+				
+					<option value="AHI">Art History (AHI)</option>
+				
+					<option value="ART">Art Studio (ART)</option>
+				
+					<option value="ASA">Asian American Studies (ASA)</option>
+				
+					<option value="AST">Astronomy (AST)</option>
+				
+					<option value="ATM">Atmospheric Science (ATM)</option>
+				
+					<option value="AVS">Avian Sciences (AVS)</option>
+				
+					<option value="BCB">Bio, Molec, Cell, Dev Bio GG (BCB)</option>
+				
+					<option value="BMB">Biochemistry &amp; Molec Biol Grad (BMB)</option>
+				
+					<option value="BIS">Biological Sciences (BIS)</option>
+				
+					<option value="BPT">Biophotonics (BPT)</option>
+				
+					<option value="BPH">Biophysics (Graduate Group) (BPH)</option>
+				
+					<option value="BST">Biostatistics (BST)</option>
+				
+					<option value="BIT">Biotechnology (BIT)</option>
+				
+					<option value="DEB">Biotechnology (Desig Emphasis) (DEB)</option>
+				
+					<option value="CAN">Cantonese (CAN)</option>
+				
+					<option value="CDB">Cell &amp; Developmental Biol Grad (CDB)</option>
+				
+					<option value="CEL">Celtic (CEL)</option>
+				
+					<option value="CHE">Chemistry (CHE)</option>
+				
+					<option value="CHI">Chicano Studies (CHI)</option>
+				
+					<option value="CHN">Chinese (CHN)</option>
+				
+					<option value="CTS">Cinema &amp; Technocultural Stud (CTS)</option>
+				
+					<option value="CDM">Cinema and Digital Media (CDM)</option>
+				
+					<option value="CLA">Classics (CLA)</option>
+				
+					<option value="CLH">Clinical Research (CLH)</option>
+				
+					<option value="CGS">Cognitive Science (CGS)</option>
+				
+					<option value="LTS">College of Letters &amp; Science (LTS)</option>
+				
+					<option value="CLR">Colleges at La Rue (CLR)</option>
+				
+					<option value="CMN">Communication (CMN)</option>
+				
+					<option value="CRD">Community &amp; Regional Develpmnt (CRD)</option>
+				
+					<option value="COM">Comparative Literature (COM)</option>
+				
+					<option value="CNE">Consumer Economics (CNE)</option>
+				
+					<option value="CNS">Consumer Sciences (CNS)</option>
+				
+					<option value="CRI">Critical Theory (Desig Emphas) (CRI)</option>
+				
+					<option value="CRO">Croatian (CRO)</option>
+				
+					<option value="CSM">Crop Science &amp; Management (CSM)</option>
+				
+					<option value="CST">Cultural Studies (CST)</option>
+				
+					<option value="DAN">Danish (DAN)</option>
+				
+					<option value="DES">Design (DES)</option>
+				
+					<option value="DRA">Dramatic Art (DRA)</option>
+				
+					<option value="EAS">East Asian Studies (EAS)</option>
+				
+					<option value="ECL">Ecology (ECL)</option>
+				
+					<option value="ECN">Economics (ECN)</option>
+				
+					<option value="EJS">Economy, Justice &amp; Society (EJS)</option>
+				
+					<option value="EDU">Education (EDU)</option>
+				
+					<option value="EAP">Education Abroad Program (EAP)</option>
+				
+					<option value="EDO">Endocrinology (Graduate Group) (EDO)</option>
+				
+					<option value="ENG">Engineering (ENG)</option>
+				
+					<option value="EAE">Engineering Aerospace Sci (EAE)</option>
+				
+					<option value="EAD">Engineering Applied Sci-Davis (EAD)</option>
+				
+					<option value="EAL">Engineering Applied Sci-Lvrmor (EAL)</option>
+				
+					<option value="EBS">Engineering Biological Systems (EBS)</option>
+				
+					<option value="BIM">Engineering Biomedical (BIM)</option>
+				
+					<option value="ECH">Engineering Chemical (ECH)</option>
+				
+					<option value="ECM">Engineering Chemical-Materials (ECM)</option>
+				
+					<option value="ECI">Engineering Civil &amp; Environ (ECI)</option>
+				
+					<option value="ECS">Engineering Computer Science (ECS)</option>
+				
+					<option value="EEC">Engineering Electrical &amp; Compu (EEC)</option>
+				
+					<option value="EMS">Engineering Materials Science (EMS)</option>
+				
+					<option value="EME">Engineering Mechanical (EME)</option>
+				
+					<option value="MAE">Engineering Mechanical &amp; Aero (MAE)</option>
+				
+					<option value="ENL">English (ENL)</option>
+				
+					<option value="ENT">Entomology (ENT)</option>
+				
+					<option value="ENH">Environmental Horticulture (ENH)</option>
+				
+					<option value="ENP">Environmental Plan &amp; Managemnt (ENP)</option>
+				
+					<option value="ERS">Environmental Resource Science (ERS)</option>
+				
+					<option value="ESM">Environmental Sci &amp; Management (ESM)</option>
+				
+					<option value="ESP">Environmental Science &amp; Policy (ESP)</option>
+				
+					<option value="EST">Environmental Studies (EST)</option>
+				
+					<option value="ETX">Environmental Toxicology (ETX)</option>
+				
+					<option value="EPI">Epidemiology (Graduate Group) (EPI)</option>
+				
+					<option value="EVE">Evolution and Ecology (EVE)</option>
+				
+					<option value="EXB">Exercise Biology (EXB)</option>
+				
+					<option value="EXS">Exercise Science (EXS)</option>
+				
+					<option value="FPS">Fiber And Polymer Science (FPS)</option>
+				
+					<option value="FMS">Film Studies (FMS)</option>
+				
+					<option value="LFA">Fine Arts (LFA)</option>
+				
+					<option value="FAH">Fine Arts &amp; Humanities (FAH)</option>
+				
+					<option value="FST">Food Science &amp; Technology (FST)</option>
+				
+					<option value="FSM">Food Service Management (FSM)</option>
+				
+					<option value="FOR">Forensic Science (FOR)</option>
+				
+					<option value="FRE">French (FRE)</option>
+				
+					<option value="FRS">Freshman Seminar (FRS)</option>
+				
+					<option value="GGG">Genetics (Graduate Group) (GGG)</option>
+				
+					<option value="GEO">Geography (GEO)</option>
+				
+					<option value="GEL">Geology (GEL)</option>
+				
+					<option value="GER">German (GER)</option>
+				
+					<option value="GDB">Global Disease Biology (GDB)</option>
+				
+					<option value="GRD">Graduate Education (GRD)</option>
+				
+					<option value="GRK">Greek (GRK)</option>
+				
+					<option value="MHI">Health Informatics (MHI)</option>
+				
+					<option value="HEB">Hebrew (HEB)</option>
+				
+					<option value="HIN">Hindi/Urdu (HIN)</option>
+				
+					<option value="HIS">History (HIS)</option>
+				
+					<option value="HPS">History &amp; Philosophy of Sci. (HPS)</option>
+				
+					<option value="HNR">Honors Challenge (HNR)</option>
+				
+					<option value="HRT">Horticulture (HRT)</option>
+				
+					<option value="HDE">Human Development (HDE)</option>
+				
+					<option value="HMR">Human Rights (HMR)</option>
+				
+					<option value="HUM">Humanities (HUM)</option>
+				
+					<option value="HUN">Hungarian (HUN)</option>
+				
+					<option value="HYD">Hydrologic Science (HYD)</option>
+				
+					<option value="IMM">Immunology (Graduate Group) (IMM)</option>
+				
+					<option value="IPM">Integrated Pest Management (IPM)</option>
+				
+					<option value="IST">Integrated Studies (IST)</option>
+				
+					<option value="IAD">International Agricultural Dev (IAD)</option>
+				
+					<option value="ICL">International Commercial Law (ICL)</option>
+				
+					<option value="IRE">International Relations (IRE)</option>
+				
+					<option value="ITA">Italian (ITA)</option>
+				
+					<option value="JPN">Japanese (JPN)</option>
+				
+					<option value="JST">Jewish Studies (JST)</option>
+				
+					<option value="LDA">Landscape Architecture (LDA)</option>
+				
+					<option value="LAT">Latin (LAT)</option>
+				
+					<option value="LAH">Latin American &amp; Hemispheric (LAH)</option>
+				
+					<option value="LAW">Law (LAW)</option>
+				
+					<option value="LIN">Linguistics (LIN)</option>
+				
+					<option value="MGT">Management (MGT)</option>
+				
+					<option value="MGB">Management Work Prof Bay Area (MGB)</option>
+				
+					<option value="MGP">Management Working Professionl (MGP)</option>
+				
+					<option value="MPH">Master of Public Health (MPH)</option>
+				
+					<option value="MCN">Maternal and Child Nutrition (MCN)</option>
+				
+					<option value="MPS">Math &amp; Physical Sci (MPS)</option>
+				
+					<option value="MAT">Mathematics (MAT)</option>
+				
+					<option value="ANE">Med - Anesthesiology (ANE)</option>
+				
+					<option value="BCM">Med - Biological Chemistry (BCM)</option>
+				
+					<option value="CHA">Med - Cell Biol &amp; Human Anat (CHA)</option>
+				
+					<option value="CPS">Med - Clinical Psychology (CPS)</option>
+				
+					<option value="CMH">Med - Community &amp; Intl Health (CMH)</option>
+				
+					<option value="DER">Med - Dermatology (DER)</option>
+				
+					<option value="EPP">Med - Epidemiology &amp; Prev Med (EPP)</option>
+				
+					<option value="FAP">Med - Family Practice (FAP)</option>
+				
+					<option value="HPH">Med - Human Physiology (HPH)</option>
+				
+					<option value="IMD">Med - Internal Medicine (IMD)</option>
+				
+					<option value="CAR">Med - Intrl: Cardiology (CAR)</option>
+				
+					<option value="NCM">Med - Intrl: Clinic Nutr&amp;Metab (NCM)</option>
+				
+					<option value="EMR">Med - Intrl: Emergency Med (EMR)</option>
+				
+					<option value="ENM">Med - Intrl: Endocrinol &amp;Metab (ENM)</option>
+				
+					<option value="GAS">Med - Intrl: Gastroenterology (GAS)</option>
+				
+					<option value="GMD">Med - Intrl: General Medicine (GMD)</option>
+				
+					<option value="HON">Med - Intrl: Hematology-Oncol (HON)</option>
+				
+					<option value="IDI">Med - Intrl: Infectious Dis (IDI)</option>
+				
+					<option value="NEP">Med - Intrl: Nephrology (NEP)</option>
+				
+					<option value="PUL">Med - Intrl: Pulmonary (PUL)</option>
+				
+					<option value="MMI">Med - Medical Microbiology (MMI)</option>
+				
+					<option value="PHA">Med - Medical Pharmacol &amp;Toxic (PHA)</option>
+				
+					<option value="MDS">Med - Medical Science (MDS)</option>
+				
+					<option value="NEU">Med - Neurology (NEU)</option>
+				
+					<option value="NSU">Med - Neurosurgery (NSU)</option>
+				
+					<option value="OBG">Med - Obstetrics &amp; Gynecology (OBG)</option>
+				
+					<option value="OEH">Med - Occupational &amp;Envrn Hlth (OEH)</option>
+				
+					<option value="OPT">Med - Ophthalmology (OPT)</option>
+				
+					<option value="OSU">Med - Orthopaedic Surgery (OSU)</option>
+				
+					<option value="OTO">Med - Otolaryngology (OTO)</option>
+				
+					<option value="PMD">Med - Pathology (PMD)</option>
+				
+					<option value="PED">Med - Pediatrics (PED)</option>
+				
+					<option value="PMR">Med - Physical Medicine &amp;Rehab (PMR)</option>
+				
+					<option value="PSU">Med - Plastic Surgery (PSU)</option>
+				
+					<option value="PSY">Med - Psychiatry (PSY)</option>
+				
+					<option value="SPH">Med - Public Health Sciences (SPH)</option>
+				
+					<option value="RON">Med - Radiation Oncology (RON)</option>
+				
+					<option value="RDI">Med - Radiology (Diagnostic) (RDI)</option>
+				
+					<option value="RNU">Med - Radiology-Nuclear Med (RNU)</option>
+				
+					<option value="RAL">Med - Rheumatology (Allergy) (RAL)</option>
+				
+					<option value="SUR">Med - Surgery (SUR)</option>
+				
+					<option value="URO">Med - Urology (URO)</option>
+				
+					<option value="MDI">Medical Informatics (MDI)</option>
+				
+					<option value="MST">Medieval Studies (MST)</option>
+				
+					<option value="MIC">Microbiology (MIC)</option>
+				
+					<option value="MIB">Microbiology (Graduate Group) (MIB)</option>
+				
+					<option value="MSA">Middle East/South Asian Std (MSA)</option>
+				
+					<option value="MSC">Military Science (MSC)</option>
+				
+					<option value="MCB">Molecular and Cellular Biology (MCB)</option>
+				
+					<option value="MCP">Molecular, Cell &amp; Int Physio (MCP)</option>
+				
+					<option value="MUS">Music (MUS)</option>
+				
+					<option value="NAS">Native American Studies (NAS)</option>
+				
+					<option value="NAC">Nature and Culture (NAC)</option>
+				
+					<option value="NEM">Nematology (NEM)</option>
+				
+					<option value="NPB">Neurobiology,Physio &amp; Behavior (NPB)</option>
+				
+					<option value="NSC">Neuroscience (Graduate Group) (NSC)</option>
+				
+					<option value="NRS">Nursing (NRS)</option>
+				
+					<option value="NUT">Nutrition (NUT)</option>
+				
+					<option value="NGG">Nutrition Graduate Group (NGG)</option>
+				
+					<option value="NUB">Nutritional Biology (Grad Grp) (NUB)</option>
+				
+					<option value="PFS">Performance Studies (Grad Grp) (PFS)</option>
+				
+					<option value="PER">Persian (PER)</option>
+				
+					<option value="PTX">Pharmacology-Toxicology (Grad) (PTX)</option>
+				
+					<option value="PHI">Philosophy (PHI)</option>
+				
+					<option value="PHE">Physical Education (PHE)</option>
+				
+					<option value="PAS">Physician Assistant Studies (PAS)</option>
+				
+					<option value="PHY">Physics (PHY)</option>
+				
+					<option value="PGG">Physiology Graduate Group (PGG)</option>
+				
+					<option value="PLB">Plant Biology (PLB)</option>
+				
+					<option value="PBI">Plant Biology (Graduate Group) (PBI)</option>
+				
+					<option value="PLP">Plant Pathology (PLP)</option>
+				
+					<option value="PPP">Plant Protection &amp; Pest Mangmt (PPP)</option>
+				
+					<option value="PLS">Plant Science (PLS)</option>
+				
+					<option value="POL">Political Science (POL)</option>
+				
+					<option value="POM">Pomology (POM)</option>
+				
+					<option value="PBG">Population Biology (PBG)</option>
+				
+					<option value="POR">Portuguese (POR)</option>
+				
+					<option value="ACC">Professional Accountancy (ACC)</option>
+				
+					<option value="PSC">Psychology (PSC)</option>
+				
+					<option value="RMT">Range Science (RMT)</option>
+				
+					<option value="RST">Religious Studies (RST)</option>
+				
+					<option value="RUS">Russian (RUS)</option>
+				
+					<option value="VET">School of Veterinary Medicine (VET)</option>
+				
+					<option value="STS">Science &amp; Technology Studies (STS)</option>
+				
+					<option value="SAS">Science and Society (SAS)</option>
+				
+					<option value="STP">Short-Term Abroad Program (STP)</option>
+				
+					<option value="STH">Social Theory &amp; Compar History (STH)</option>
+				
+					<option value="SOC">Sociology (SOC)</option>
+				
+					<option value="SSC">Soil Science (SSC)</option>
+				
+					<option value="SPA">Spanish (SPA)</option>
+				
+					<option value="STA">Statistics (STA)</option>
+				
+					<option value="REL">Study of Religion (REL)</option>
+				
+					<option value="SAF">Sustainable Ag &amp; Food Sys (SAF)</option>
+				
+					<option value="TCS">Technocultural Studies (TCS)</option>
+				
+					<option value="TXC">Textiles &amp; Clothing (TXC)</option>
+				
+					<option value="TTP">Transportation Tech &amp; Policy (TTP)</option>
+				
+					<option value="TRK">Turkish (TRK)</option>
+				
+					<option value="UWP">University Writing Program (UWP)</option>
+				
+					<option value="URD">Urdu (URD)</option>
+				
+					<option value="VCR">Vegetable Crops (VCR)</option>
+				
+					<option value="DVM">Veterinary Clinical Rotation (DVM)</option>
+				
+					<option value="VMD">Veterinary Medicine (VMD)</option>
+				
+					<option value="VEN">Viticulture &amp; Enology (VEN)</option>
+				
+					<option value="APC">VM Anatomy, Physiol &amp; Cell Bio (APC)</option>
+				
+					<option value="VME">VM Medicine and Epidemiology (VME)</option>
+				
+					<option value="VMB">VM Molecular Biosciences (VMB)</option>
+				
+					<option value="PMI">VM Pathology, Microbiol &amp;Immun (PMI)</option>
+				
+					<option value="PHR">VM Population Health &amp; Reprod (PHR)</option>
+				
+					<option value="MPM">VM Preventive Veterinary Med (MPM)</option>
+				
+					<option value="VSR">VM Surgical &amp; Radiological Sci (VSR)</option>
+				
+					<option value="WFB">Wildlife, Fish &amp; Conserv Biol (WFB)</option>
+				
+					<option value="WFC">Wildlife, Fish &amp; Conserv Biol (WFC)</option>
+				
+					<option value="WMS">Women's Studies (WMS)</option>
+				
+					<option value="WLD">Workload (WLD)</option>
+				
+		</select>

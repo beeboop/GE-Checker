@@ -1,0 +1,389 @@
+html,body {
+	vertical-align: top;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+	font-size: small;
+	width: 80%;
+	background-color: gray;
+  margin: 0 auto;
+  min-width: 900px;
+}
+
+p,h1 {
+  margin: 0px;
+	display: inline-block;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.ui-autocomplete {
+	max-height: 130px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+
+div#header {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 10px;	
+	padding-bottom: 4px;
+	position: relative;
+	z-index: 1;
+	
+	background: rgba(1,18,71,1);/* Old Browsers */
+	background: -moz-linear-gradient(top, rgba(1,18,71,1) 0%, rgba(0,48,218,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1,18,71,1)), color-stop(100%, rgba(0,48,218,1)));/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(1,18,71,1) 0%, rgba(0,48,218,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(1,18,71,1) 0%, rgba(0,48,218,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(1,18,71,1) 0%, rgba(0,48,218,1) 100%); /* IE 10+ */
+	background: linear-gradient(to bottom, rgba(1,18,71,1) 0%, rgba(0,48,218,1) 100%);/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011247', endColorstr='#0030da', GradientType=0 );/* IE6-9 */
+}
+
+div#navbar {
+	background-color: #333;
+	height: 25px;
+	border: 2px solid #000;
+	border-radius: 0 0 1em 1em;
+	border-top-width: 0px;
+	z-index: 1;
+	position: relative;
+
+	background: rgba(105,105,105,1);
+	background: -moz-linear-gradient(left, rgba(105,105,105,1) 0%, rgba(51,51,51,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(105,105,105,1)), color-stop(100%, rgba(51,51,51,1)));
+	background: -webkit-linear-gradient(left, rgba(105,105,105,1) 0%, rgba(51,51,51,1) 100%);
+	background: -o-linear-gradient(left, rgba(105,105,105,1) 0%, rgba(51,51,51,1) 100%);
+	background: -ms-linear-gradient(left, rgba(105,105,105,1) 0%, rgba(51,51,51,1) 100%);
+	background: linear-gradient(to right, rgba(105,105,105,1) 0%, rgba(51,51,51,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#333333', GradientType=1 );
+}
+
+ul.ul_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.ul_nav li {
+	float: left;
+	line-height: 25px;
+}
+
+.ul_nav li:first-child {
+	padding-left: 5px;
+}
+
+.ul_nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 1em;
+}
+
+.ul_nav li a:hover {
+	background-color: #111;
+}
+
+div#footer {
+	background-color: white;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+div.main_div {
+	text-align: center;
+	background: white;
+	padding: 8px 0;
+	border: 2px solid white;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 10px 12px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 10px 12px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 10px 12px rgba(0,0,0,0.5);
+	z-index: -1;
+}
+
+div.course_select {
+	width: 27%;
+	background-color: white;
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	overflow-x: hidden;
+	height: 100%;
+	overflow-y: auto;
+}
+
+div.ge_chart {
+	width: 71%;
+	background-color: white;
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	height: 100%;
+	overflow-y: auto;
+}
+
+div.course_input {
+	margin: 5px;
+	width: 100%;
+}
+
+input#dept_input {
+	width: 40%;
+	//float: left;
+	padding: 1px;
+	margin-right: 3px;
+}
+
+input#course_input {
+	width: 40%;
+	//float: right;
+	padding: 1px;
+}
+
+div.course_selected {
+	margin: 7px;
+	margin-right: 7%;
+}
+
+div.course_taken_selected {
+	margin-top: 5%;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 4px;
+	padding-left: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+div.course_taken_info {
+	margin: 0 auto;
+	border: 1px solid;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: 0px;
+	width: 90%;
+	display: none;
+}
+
+p.course_info_title {
+	padding: 5px;
+	font-size: 1em;
+	font-style: italic;
+}
+
+p.course_info_units {
+	font-size: 0.8em;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	display: block;
+}
+
+p.course_info_ge {
+	font-size: 0.8em;
+	padding: 5px;
+	display: block;
+}
+
+div.has_only_top {
+	border-color: #2fadff;
+}
+
+div.has_only_core {
+	border-color: #ff812f;
+}
+
+div.has_both {
+	border-color: #adff2f;
+}
+
+a.remove_course {
+	vertical-align: middle;
+	margin-right: 10px;
+  right: 0;
+	position: absolute;
+}
+
+/* GE CHART STUFF */
+
+div.top_chart {
+	width: 100%;
+}
+
+div.core_chart {
+	width: 100%;
+}
+
+table#top_table {
+	width: 100%;
+	margin-bottom: 5px;
+	border-spacing: 0px;
+}
+
+table#core_table {
+	width: 100%;
+	border-spacing: 0px;
+}
+
+#top_table, #top_table td, #top_table th {
+	border-color: #0030da;
+}
+
+#core_table, #core_table td, #core_table th {
+	border-color: #0030da;
+}
+
+td {
+	padding: 8px;
+	vertical-align: top;
+}
+
+td.subcat_td {
+	padding: 0px;
+	height: 120px;
+	min-height: 100px;
+	vertical-align: top;
+	position: relative;
+}
+
+th {
+	padding: 2px;
+	text-align: center;
+}
+
+th.heading {
+	padding: 10px;
+	font-size: medium;
+	//position: relative;
+	background-color: #DAAA00;
+}
+
+th.subheading {
+	vertical-align: top;
+	text-align: left;
+	font-size: 14px;
+	padding-left: 7px;
+	position: relative;
+}
+
+span.satisfied {
+	font-size: x-small;
+	margin-right: 2px;
+  float: right;
+}
+
+input.satisfied_checkbox {
+  -ms-transform: scale(0.7); /* IE */
+  -moz-transform: scale(0.7); /* FF */
+  -webkit-transform: scale(0.7); /* Safari and Chrome */
+  -o-transform: scale(0.7); /* Opera */
+	margin: 0px;
+}
+
+div.top_courses {
+}
+
+div.courses_units {
+	//text-shadow: 0.5px 0.5px #000000;
+	color: darkblue;
+	letter-spacing: 1px;
+}
+
+p.courses {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p.units {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: right;
+}
+
+p.subcat_header {
+	padding-left: 1.5em;
+	text-indent:-1.2em;
+}
+
+div.subcat_div {
+
+}
+
+div.subcat_courses {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+div.requirement {
+	width: 100%;
+	bottom: 4%;
+	position: absolute;
+}
+
+p.core_subtotal {
+  right: 1.5em;
+	position: absolute;
+}
+
+p.core_subreq {
+	padding-left: 1.5em;
+}
+
+.highlight_course {
+  background: yellow;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	body {
+		width: 100%;
+		min-width: 350px;
+		font-size: x-small;
+	}
+	
+	div.course_select {
+		width: 100%;
+		height: unset;
+		max-height: 40%;
+		min-height: 0;
+		overflow: hidden;
+	}
+	
+	div.course_selected {
+		min-height: 0px;
+		max-height: 90px;
+		overflow-y: scroll;
+		margin-top: 0;
+	}
+	
+	div.ge_chart {
+		width: 100%;
+		min-height: 150px;
+		max-height: 230px;
+	}
+	
+	th.heading, th.subheading {
+		font-size: small;
+	}
+}
